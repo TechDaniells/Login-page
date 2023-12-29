@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  max-width: 550px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: beige;
+  box-shadow: 1px 1px 5px gray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.log-in {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  padding: 20px;
+}
+
+.log-in input {
+  padding: 15px;
+}
+
+.kepp-me {
+  display: flex;
+  width: 100%;
+  padding-inline: 20px;
+  gap: 2px;
+  font-size: 14px;
+}
+
+.log-in-text {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 100%;
+  gap: 12px;
+  padding-inline: 20px;
+}
+
+.log-now {
+  text-align: center;
+}
+
+.button-log-in {
+  width: 100%;
+  padding: 20px;
+}
+
+.button-log-in button {
+  width: 100%;
+  background-color: orange;
+  border: 1px solid orange;
+  padding: 20px;
+  color: white;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.button-log-in button:hover {
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button-log-in .now {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.social-media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  color: black;
+}
+
+.social-media a:visited {
+  color: black;
+}
+
+h3 {
+  text-align: start;
+  width: 100%;
+  padding: 20px;
+}
+
+a.register-now {
+  text-decoration: none;
+  color: orange;
+  padding: 2px;
+}
+
+.forgot-password {
+  color: orange;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  margin: 12px;
+  justify-content: center;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.member {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 2px;
+}
